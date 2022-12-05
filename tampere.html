@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Tampere sivu</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Bootstrap Navbar alkaa -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Kaupunkeja</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Oulu</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rovaniemi.html">Rovaniemi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tampere.html">Tampere</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Bootstrap Navbar loppuu -->
+    <!-- Bootstrap Navbar kuopio logo -->
+    <nav class="navbar bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="/images/tampere logo.png"
+            alt="Tampere logo"
+            width="250"
+            height=""
+            class="d-inline-block align-text-top"
+          />
+        </a>
+      </div>
+    </nav>
+    <!-- bootstrap Navbar kuopio logo loppuu -->
+    <!-- Bootstrap scrollspy alkaa -->
+    <div class="row">
+      <div class="col-4">
+        <nav
+          id="navbar-example3"
+          class="h-100 flex-column align-items-stretch pe-4 border-end"
+        >
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#item-1">Tampereen kaupunki</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ms-3 my-1" href="#item-1-1">Sijainti</a>
+              <a class="nav-link ms-3 my-1" href="#item-1-2">Vesistöt</a>
+            </nav>
+            <a class="nav-link" href="#item-2">Historia</a>
+            <a class="nav-link" href="#item-3">Nähtävyydet</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ms-3 my-1" href="#item-3-1"
+                >Amurin työläismuseokortteli</a
+              >
+              <a class="nav-link ms-3 my-1" href="#item-3-2"
+                >Finlaysonin tehdasalue</a
+              >
+              <a class="nav-link ms-3 my-1" href="#item-3-3"
+                >Pyynikin näkötorni</a
+              >
+            </nav>
+          </nav>
+        </nav>
+      </div>
+
+      <div class="col-8">
+        <div
+          data-bs-spy="scroll"
+          data-bs-target="#navbar-example3"
+          data-bs-smooth-scroll="true"
+          class="scrollspy-example-2"
+          tabindex="0"
+        >
+          <div id="item-1">
+            <h4>Tampereen kaupunki</h4>
+            <p>
+              Tampere (ruots. Tammerfors) on Suomen kaupunki ja Pirkanmaan
+              maakuntakeskus, joka sijaitsee Näsijärven ja Pyhäjärven rannoilla.
+              Tampere on väkiluvultaan Suomen kolmanneksi suurin kunta ja
+              lähikuntineen Suomen toiseksi suurin kaupunkialue. Tampere on myös
+              asukasmäärältään Pohjoismaiden suurin sisämaakaupunki. Tampereen
+              kaupungin väkiluku on 245 027 ja Tampereen keskustaajaman 349 553
+              asukasta. Tampereen naapurikunnat ovat Kangasala, Lempäälä, Nokia,
+              Orivesi, Pirkkala, Ruovesi ja Ylöjärvi. Tampereen kaupunkiseudun,
+              johon kuuluu Tampereen lisäksi seitsemän ympäryskuntaa, väkiluku
+              on noin 422 000 asukasta (2022)
+            </p>
+          </div>
+          <div id="item-1-1">
+            <h5>Sijainti</h5>
+            <p>
+              Tampereen kokonaispinta-ala on 689,59 neliökilometriä, josta maata
+              on 524,89 neliökilometriä ja vettä 164,70 neliökilometriä.
+              Tampereen pohjoisin kohta sijaitsee Teiskon Vankavedessä,
+              eteläisin Hervantajärven itäpäässä, itäisin Teiskon Paalijärven
+              koilliskulmassa ja läntisin Haukijärven kaakkoiskulmassa.
+            </p>
+          </div>
+          <div id="item-1-2">
+            <h5>Vesistöt</h5>
+            <p>
+              Tampereen kunnan alueella on noin 160 järveä. Niistä kaksi
+              kolmasosaa on alle kymmenen hehtaarin suuruisia. Yli 50 hehtaarin
+              suuruisia järviä on noin kymmenen prosenttia. Suurimmat järvet
+              ovat Näsijärvi ja Pyhäjärvi. Näsijärvi on Suomen 16. suurin järvi:
+              se on 44 kilometriä pitkä, ja sen vedet ulottuvat Ylöjärven ja
+              Ruoveden kuntiin. Se on muodostunut kolmesta suuresta selästä,
+              Koljonselästä, Näsinselästä ja Vankavedestä
+            </p>
+          </div>
+          <div id="item-2">
+            <h4>Historia</h4>
+            <p>
+              Tammerkosken seutu sai pysyvää asutusta noin 600-luvulla, jolloin
+              lännestä tulleet uudisraivaajat asettuivat Takahuhdin
+              viljelyspaikoille. Tampereen seudun asutushistoria keskittyy
+              Messukylän ja Pirkkalan pitäjiin, joiden yksittäisiä taloja
+              sijaitsi kaupungin myöhemmällä alueella jo keskiajalla.[33]
+              Nykyisen Tampereen alueella oli keskiajalla noin 200 taloa. Erik
+              Edner ehdotti valtiopäivillä 1771–1772 kaupungin perustamista
+              Tammerkoskelle. Kustaa III perusti Tampereen 1. lokakuuta 1779.
+              Tampere sijaitsi syrjäisellä takamaalla, ja sen asukkaat olivat
+              maanviljelijöitä. Tammerkoski virtasi vielä lähes vapaana, mutta
+              kuningas uskoi, että sen avulla kaupunki voisi menestyä ja tuoda
+              kruunulle verotuloja. Tampereelle annettiin vapaakaupungin
+              oikeudet. Kuka tahansa saisi muuttaa kaupunkiin ja toimia
+              haluamassaan ammatissa. Maata kaupungissa ei kuitenkaan saanut
+              viljellä. Toimeentulo hankittiinkin kaupasta ja käsityöstä, sillä
+              tehtaita ei vielä ollut <br>
+              <a href="https://fi.wikipedia.org/wiki/Tampere#Kulttuurintekij%C3%B6it%C3%A4_ja_Tampere_fiktiossa">Tampere wikipedia</a>
+            </p>
+          </div>
+          <div id="item-3">
+            <h4>Nähtävyydet</h4>
+            <p>
+              Tampere on viihtyisä kaupunki kotimaiseen kaupunkilomaan.
+              Kaupungista löytyy nähtävää ja tekemistä aikuisille seä lapsille,
+              tehden siitä monipuolisen lomakohteen ihan kaikenlaiseen
+              lomailuun. Mitkä ovat ne parhaat Tampereen nähtävyydet, jotka
+              jokaisen matkailijan tulisi lisätä loma-ohjelmaan?
+            </p>
+          </div>
+          <div id="item-3-1">
+            <h5>Amurin työläismuseokortteli</h5>
+            <p>
+              Tampereella on hyvin vankka asema suomalaisessa teollisuudessa.
+              Monet Tampereen nähtävyydet vievät tutustumaan juuri tähän
+              kaupungin historiaan, joista yksi erinomainen paikka siihen on
+              Amurin työläismuseokortteli. Korttelista löytyy viisi alkuperäistä
+              rakennusta sekä neljä piharakennusta, joista löytyy:
+              Suutarinverstas Leipomo Osuuskauppa Paperi- ja lyhyttavarakauppa
+              Tämä Tampereen nähtävyys on kesällä avoinna joka päivä, alueen
+              kahvilan palvellessa kuitenkin läpi vuoden. Kesällä
+              museokorttelissa järjestetään myös erilaisia mielenkiintoisia
+              tapahtumia. <br>
+              <button type="button" class="btn btn-info"><a href="http://www.museokortteli.fi/">www.museokortteli.fi</a></button>
+            </p>
+          </div>
+          <div id="item-3-2">
+            <h5>Finlaysonin tehdasalue</h5>
+            <p>
+              Tampereen nähtävyydet talvella tai kesällä vievät myös
+              viihtyisälle Finlaysonin tehdasalueelle, joka sopii
+              ympärivuotiseen vierailuun, sillä suurelta tehdasalueelta löytyy
+              runsaasti erilaista ajanvietettä. Finlaysonin alueella voi: Käydä
+              elokuvissa Herkutella erilaisissa ravintoloissa Maistella
+              paikallista olutta pienpanimoravintolassa Vierailla Työväen museo
+              Werstaassa, Suomen Vakoilumuseossa tai Höyrykonemuseossa Alueelta
+              löytyy myös varsinkin erilaisten juhlapyhien alla erilaista
+              ajanvietettä. <br>
+              <button type="button" class="btn btn-info"><a href="https://www.finlaysoninalue.fi/?utm_term=finlayson%20tehdasalue&utm_campaign=%5BS%5D-Kohteet-Finlaysoninalue&utm_source=adwords&utm_medium=ppc&hsa_acc=4331735425&hsa_cam=1052273995&hsa_grp=60394766788&hsa_ad=414684650389&hsa_src=g&hsa_tgt=kwd-785085358737&hsa_kw=finlayson%20tehdasalue&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQiAyracBhDoARIsACGFcS5DfRoeruofiEQsPHpABg8stwH7H3IRtNimsDdkqkzP0b-quQ06iRwaAs95EALw_wcB">www.finlaysoninalue.fi</a></button>
+            </p>
+          </div>
+          <div id="item-3-3">
+            <h5>Pyynikin näkötorni</h5>
+            <p>
+              Näsinneula on tietenkin yksi tunnetuimmista Tampereen
+              nähtävyyksistä, mutta maisemia voi lähteä ihastelemaan myös
+              Pyynikin näkötorniin. Näkötornin nähtävyyksien lisäksi myös tornin
+              kahvilan munkit ovat varsin tunnettuja ympäri maan. Kaunis
+              Pyynikki tarjoaa muutenkin mukavasti nähtävyyksiä Tampereen
+              keskustan ulkopuolella. Jos olet liikkeellä kesällä, on Pyynikin
+              kesäteatteri ehdottomasti yksi vetonauloja esityksineen. <br>
+              <button type="button" class="btn btn-info"><a href="https://www.munkkikahvila.net/nakotorni">www.munkkikahvila.net/nakotorni</a></button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
